@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    background-image: url('../bgpic.png');
+    background-size: cover;
+    
+}
+.box{
+    height: 100vh;
+    background-color: rgba(0,0, 0, 0.4);
+    display: flex;
+    align-items: center;
+flex-direction: column;
+
+}
+.box h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.num {
+   
+    border: 1px solid yellow;
+    padding: 13px;
+    border-radius: 10px;
+    width: 100px;
+  margin: 50px 20px;
+  font-size: 27px;
+  color: orangered;
+  text-align: center;
+ 
+}
+label{
+    color: rgb(255, 2, 158);
+    font-size: 30px;
+   
+}
+.close{
+    width: 100px;
+    line-height: 70px;
+    color: rgba(255, 0, 0, 0.788);
+}
+.age{
+    color: black;
+    
+}
